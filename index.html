@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <title>WELCOME</title>
+        <link rel="icon" type="icon" href="Icon.jpg">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="all">
+            <div class="welcome">
+                <h1>Welcome</h1>
+            </div>
+
+            <h2 style="padding: 50px">Instructions</h2>
+
+            <div class="button">            
+                <div><p style="width: 250px; position:absolute; top: 350px; left: 180px"><b>1.</b> Click on Start button.</p></div>
+                <div><p style="width: 250px; position:absolute; top: 350px; left: 550px"><b>2.</b> Allow access to camera.</p></div>
+                <div><p style="width: 250px; position:absolute; top: 350px; left: 900px; right: 200px;"><b>3.</b> Follow pose shown in Image.</p></div>
+                <div><h3></h3></div>
+            </div>
+            <button class="button1" type="button" onclick="btnCollect()"><strong>Collect</strong></button>
+
+            <button class="button1" type="button" onclick="btnTraining()"><strong>Train</strong></button>
+
+            <button class="button1" type="button" onclick="btnClicked()"><strong>Result</strong></button>
+
+        </div>
+        <script>
+            function btnClicked(){
+                document.location.href="index_sketch.html";
+            }
+            function btnCollect(){
+                document.location.href="dc_index.html";
+            }
+            function btnTraining(){
+                document.location.href="mt_index.html";
+            }
+        </script>
+    </body>
+</html>
